@@ -206,12 +206,12 @@ header h2 {
 
 /* About Me */
 
-#section1 h1, #section2 h1  {
+#section1 h1, #section2 h1, #section3 h1  {
 	font-size: 80px;
 	font-family: 'pacificoregular', 'script';
 }
 
-#section1 p, #section2 p {
+#section1 p, #section2 p, #section3 p {
 	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
 	font-size: 32px;
 }
@@ -221,6 +221,10 @@ header h2 {
 }
 
 /* Projects */
+
+#section2 h1 {
+	margin-top: 80px;
+}
 
 #mac {
 	position: relative;
@@ -239,21 +243,47 @@ header h2 {
 	z-index: 3;
 }
 
+.screenshots img {
+	width: 54%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.screenshots p {
+	width: 60%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+
 /*  
 	bottom: 399px;
 	left: 2px;
-
 */
 
-#section2 h1 {
-	margin-top: 80px;
+/* Contact */
+
+#section3 img {
+	display: inline-block;
+	margin-top: 40px;
+	padding: 12px;
+	box-shadow: 0px 3px 5px #000;
+    -moz-box-shadow: 0px 3px 5px #000;
+    -webkit-box-shadow: 0px 3px 5px #000;
 }
 
-#section3 img{
-	bottom: 0px;
-	position:absolute;
-	margin-left: -420px;
+#section3 img:hover {
+    position:relative;
+    top: 3px;
+	box-shadow: 0px 3px 5px #000;
+    -moz-box-shadow: 0px 3px 5px #000;
+    -webkit-box-shadow: 0px 3px 5px #000;
+    background-color: #FEBF24;
+  }
+
+#section3 h1 {
+	margin-top: -60px;
 }
+
 .intro p{
 	width: 50%;
 	margin: 0 auto;
