@@ -22,16 +22,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
 	
 	<script type="text/javascript" src="jquery.fullPage.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			var pepe = $.fn.fullpage({
-				slidesColor: ['whitesmoke', '#FF884D', '#7BAABE', '#41C4AB', '#ccddff'],
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-				menu: '#menu'
-			});
-			
-		});
-	</script>
+	<script type="text/javascript" src="script.js"></script>
 
 </head>
 <body>
@@ -39,8 +30,9 @@
 	<ul id="menu">
 		<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
 		<li data-menuanchor="secondPage"><a href="#secondPage">About Me</a></li>
-		<li data-menuanchor="3rdPage"><a href="#3rdPage">Projects</a></li>
-		<li data-menuanchor="4thpage"><a href="#4thpage">Contact</a></li>
+		<li data-menuanchor="3rdPage"><a href="#3rdPage">Skills</a></li>
+		<li data-menuanchor="4thpage"><a href="#4thpage">Projects</a></li>
+		<li data-menuanchor="lastPage"><a href="#lastPage">Contact</a></li>
 	</ul>
 
 	<div class="section " id="section0">
@@ -58,66 +50,99 @@
 	</div>
 
 	<div class="section" id="section1">
-		<div class="intro">
+		<div class="intro about_me">
 			<h1>About Me</h1>
 			<img src="imgs/profile_photo.png" />
-			<p>I graduated with a B.A. in Psychology and moved to Beijing to live the expat life for more than 5 years. While I was there, I discovered my passion for UX design and front-end development. I am an advocate for simple and intuitive user experience and I obsess over every pixel.</p>
-			<br />
-			<p>When I’m not coding or designing, I’m hanging out at the beach or around food trucks like a true California cliché.</p>
+			<div>
+				<p>I graduated with a B.A. in Psychology and moved to Beijing to live the expat life for more than 5 years. While I was there, I discovered my passion for UX design and front-end development. I am an advocate for simple and intuitive user experience and I obsess over every pixel.</p>
+				<br />
+				<p>When I’m not coding or designing, I’m hanging out at the beach or around food trucks like a true California cliché.</p>
+			</div>
 		</div>
 	</div>
 
 	<div class="section" id="section2">
+		<div class="intro">
+			<h1>Skills</h1>
+			<img src="imgs/HTML5_logo.png" class="resizePhoto" />
+			<img src="imgs/CSS3_logo.png" class="resizePhoto" />
+			<img src="imgs/JS_logo.png" class="resizeLg"/>
+		</div>
+	</div>
+
+	<div class="section" id="section3">
     	<div class="slide">
 			<div class="intro">
 				<h1>Projects</h1>
 				<img src="imgs/mac_desktop.jpg" id="mac" />
 				<p>My first project was a Mother’s Day gift for my mom - I taught myself HTML, CSS, and even jQuery so I could make her a webpage with some of the reasons why I think she’s incredible.</p>
 				<br />
-				<p>Check out my first project and the evolution of my work since then.</p>
+				<p>Check out my first project and the evolution of my work since then. <span id="arrow_right">&#x2192;</span></p>
 				<img src="imgs/mothersday_1.png" id="MD_1" />
 			</div>
 		</div>
 		<div class="slide">
 			<div class="screenshots">
-				<img src="imgs/mothersday_1.png" alt="mothersday" />
+				<div class="show_icon">
+					<img src="imgs/mothersday_1.png" alt="mothersday" class="hover" />
+					<a href="#" class="gitIcon_left"><img src="imgs/GitHub.png" /></a>
+					<a href="#" class="gitIcon_right"><img src="imgs/link.png" /></a>
+				</div>
 				<p>My first project - a webpage made especially for my mom using HTML, CSS, and a jQuery flip animation effect.</p>
 			</div>
 		</div>
     	<div class="slide">
 			<div class="screenshots">
-				<img src="imgs/HotOrColdGame.png" alt="hotorcold" />
+				<div class="show_icon">
+					<img src="imgs/HotOrColdGame.png" alt="hotorcold" class="hover" />
+					<a href="#" class="gitIcon_left"><img src="imgs/GitHub.png" /></a>
+					<a href="#" class="gitIcon_right"><img src="imgs/link.png" /></a>
+				</div>
 				<p>A hot or cold number guessing game using HTML, CSS, Javascript, and jQuery.</p>
 				<p>An experiment in clean, minimalistic design and SVG color meters.</p>
 			</div>
 		</div>
     	<div class="slide">
 			<div class="screenshots">
-				<img src="imgs/GroceryList.png" />
+				<div class="show_icon">
+					<img src="imgs/GroceryList.png" class="hover" />
+					<a href="#" class="gitIcon_left"><img src="imgs/GitHub.png" /></a>
+					<a href="#" class="gitIcon_right"><img src="imgs/link.png" /></a>
+				</div>
 				<p>A grocery list app created using HTML, CSS, Javascript, and jQuery.</p>
 				<p>The list in this screenshot includes some of my favorite foods.</p>
 			</div>
 		</div>
     	<div class="slide">
 			<div class="screenshots">
-				<img src="imgs/JLawQuiz.png" alt="jenniferlawrence" />
+				<div class="show_icon">
+					<img src="imgs/JLawQuiz.png" alt="jenniferlawrence" class="hover" />
+					<a href="#" class="gitIcon_left"><img src="imgs/GitHub.png" /></a>
+					<a href="#" class="gitIcon_right"><img src="imgs/link.png" /></a>
+				</div>
 				<p>A quiz app of quotes from one of my favorite actresses, Jennifer Lawrence.</p>
 				<p>I built this on the Bootstrap Carousel and also used HTML, CSS, Javascript, and jQuery.</p>
 			</div>
 		</div>
 		<div class="slide">
 			<div class="screenshots">
-				<img src="imgs/CWTVredesign.png" alt="cwtv" />
-				<p>My most recent project, a redesign of the CWTV website.</p>
+				<div class="show_icon">
+					<img src="imgs/CWTVredesign.png" alt="cwtv" class="hover" />
+					<a href="#" class="gitIcon_left"><img src="imgs/GitHub.png" /></a>
+					<a href="#" class="gitIcon_right"><img src="imgs/link.png" /></a>
+				</div>
+				<p>My most recent project - a redesign of the CWTV website.</p>
 				<p>I used large images and a grid design to create a cleaner look with HTML, CSS, Javascript, and jQuery.</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="section" id="section3">
+	<div class="section" id="section4">
 		<div class="intro">
 			<h1>Contact</h1>
-			<p>Interested in getting in touch with me?</p>
+			<p>If you're interested in working with me or chatting more about what I can do, get in touch with me on one of the sites below.</p>
+			<br />
+			<p>I'd love to hear from you!</p>
 			<a href="https://github.com/miguo"><img src="imgs/GitHub.png" /></a>
 			<a href="https://twitter.com/itsmichelleguo"><img src="imgs/Twitter.png" /></a>
 			<a href="https://www.google.com/+MichelleGuo10"><img src="imgs/Google_plus.png" /></a>

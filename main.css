@@ -105,6 +105,10 @@ p{
 	text-align:center;
 }
 
+.section p {
+
+}
+
 /* Menu */
 
 #menu li {
@@ -206,12 +210,22 @@ header h2 {
 
 /* About Me */
 
-#section1 h1, #section2 h1, #section3 h1  {
+#section1 {
+  background: 
+    linear-gradient(
+      rgba(0,206,209, 0.6), 
+      rgba(0,206,209, 0.6)
+    ),
+
+    url(imgs/beach.jpg);
+}
+
+#section1 h1, #section2 h1, #section3 h1, #section4 h1  {
 	font-size: 80px;
 	font-family: 'pacificoregular', 'script';
 }
 
-#section1 p, #section2 p, #section3 p {
+#section1 p, #section2 p, #section3 p, #section4 p {
 	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
 	font-size: 32px;
 }
@@ -220,9 +234,32 @@ header h2 {
 	margin-bottom: 30px;
 }
 
-/* Projects */
+#section1 p, #section1 h1 {
+	color: #f5f5f5;
+}
+
+/* Skills */
 
 #section2 h1 {
+	margin-top: -40px;
+	margin-bottom: 60px;
+}
+
+#section2 img {
+	max-width: 100%;
+}
+
+.resizePhoto {
+	width: 17%;
+}
+
+.resizeLg {
+	width: 10%;
+}
+
+/* Projects */
+
+#section3 h1 {
 	margin-top: 80px;
 }
 
@@ -235,19 +272,25 @@ header h2 {
 }
 
 #MD_1 {
+	position: absolute;
 	max-width: 100%;
-	width: 16%;
-	position: relative;
-	bottom: 25em;
-	left: 2px;
+	width: 2.69%;
+	bottom: 43%;;
+	left: 7.01%;
 	z-index: 3;
+}
+
+#arrow_right {
+	vertical-align: center;
+	font-size: 30px;
+	font-weight: bolder;
 }
 
 .screenshots img {
 	width: 54%;
 	max-width: 100%;
 	margin-bottom: 20px;
-}
+} 
 
 .screenshots p {
 	width: 60%;
@@ -255,23 +298,47 @@ header h2 {
 	font-size: 1.5em;
 }
 
-/*  
-	bottom: 399px;
-	left: 2px;
-*/
+.show_icon {
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+.hover {
+	position: relative;
+	width: 54%;
+	left: 0;
+	top: 0;
+}
+
+
+.gitIcon_left {
+	position: absolute;
+	top: 40%;
+	left: 42%;
+	visibility: hidden;
+}
+
+.gitIcon_right {
+	width: 6%;
+	position: absolute;
+	top: 44%;
+	left: 51%;
+	visibility: hidden;
+}
 
 /* Contact */
 
-#section3 img {
+#section4 img {
 	display: inline-block;
-	margin-top: 40px;
+	margin-top: 60px;
 	padding: 12px;
 	box-shadow: 0px 3px 5px #000;
     -moz-box-shadow: 0px 3px 5px #000;
     -webkit-box-shadow: 0px 3px 5px #000;
 }
 
-#section3 img:hover {
+#section4 img:hover {
     position:relative;
     top: 3px;
 	box-shadow: 0px 3px 5px #000;
@@ -280,8 +347,8 @@ header h2 {
     background-color: #FEBF24;
   }
 
-#section3 h1 {
-	margin-top: -60px;
+#section4 h1 {
+	margin-top: -80px;
 }
 
 .intro p{
@@ -289,7 +356,6 @@ header h2 {
 	margin: 0 auto;
 	font-size: 1.5em;
 }
-
 
 #fullPage-nav{
 	position: absolute;
