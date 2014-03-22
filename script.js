@@ -9,11 +9,15 @@ $(document).ready(function() {
 	$('.hover').mouseover(function() {
   		$('.gitIcon_left').css("visibility", "visible");
   		$('.gitIcon_right').css("visibility", "visible");
+  		$(this).addClass("gradient");
+  		$(this).removeClass("gradient_out");
 	});
 
 	$('.hover').mouseout(function() {
   		$('.gitIcon_left').css("visibility","hidden");
   		$('.gitIcon_right').css("visibility", "hidden");
+  		$(this).addClass("gradient_out");
+  		$(this).removeClass("gradient");
 	});
 
 
