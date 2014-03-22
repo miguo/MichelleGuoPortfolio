@@ -213,8 +213,8 @@ header h2 {
 #section1 {
   background: 
     linear-gradient(
-      rgba(0,206,209, 0.6), 
-      rgba(0,206,209, 0.6)
+      rgba(0,206,209, 0.7), 
+      rgba(0,206,209, 0.7)
     ),
 
     url(imgs/beach.jpg);
@@ -223,25 +223,23 @@ header h2 {
 #section1 h1, #section2 h1, #section3 h1, #section4 h1  {
 	font-size: 80px;
 	font-family: 'pacificoregular', 'script';
+	color: #F5F5F5;
 }
 
 #section1 p, #section2 p, #section3 p, #section4 p {
 	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
 	font-size: 32px;
+	color: #F5F5F5;
 }
 
 #section1 img {
 	margin-bottom: 30px;
 }
 
-#section1 p, #section1 h1 {
-	color: #f5f5f5;
-}
-
 /* Skills */
 
 #section2 h1 {
-	margin-top: -40px;
+	margin-top: -60px;
 	margin-bottom: 60px;
 }
 
@@ -250,17 +248,13 @@ header h2 {
 }
 
 .resizePhoto {
-	width: 17%;
-}
-
-.resizeLg {
-	width: 10%;
+	width: 16.9%;
 }
 
 /* Projects */
 
 #section3 h1 {
-	margin-top: 80px;
+	margin-top: -60px;
 }
 
 #mac {
@@ -275,7 +269,7 @@ header h2 {
 	position: absolute;
 	max-width: 100%;
 	width: 2.69%;
-	bottom: 43%;;
+	bottom: 52%;;
 	left: 7.01%;
 	z-index: 3;
 }
@@ -361,6 +355,16 @@ header h2 {
 
 /* Contact */
 
+#section4 {
+  background: 
+    linear-gradient(
+      rgba(52,73,94, 0.8), 
+      rgba(52,73,94, 0.8)
+    ),
+
+    url(imgs/Instawall.png);
+}
+
 #section4 img {
 	display: inline-block;
 	margin-top: 60px;
@@ -380,7 +384,7 @@ header h2 {
   }
 
 #section4 h1 {
-	margin-top: -80px;
+	margin-top: -60px;
 }
 
 .intro p{

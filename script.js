@@ -1,7 +1,7 @@
 $(document).ready(function() {
 			
 	var pepe = $.fn.fullpage({
-		slidesColor: ['whitesmoke', '#FF884D', '#FF884D', '#7BAABE', '#41C4AB'],
+		slidesColor: ['whitesmoke', '#FF884D', '#FF884D', '#1A8094', '#41C4AB'],
 		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 		menu: '#menu'
 	});
