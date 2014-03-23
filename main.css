@@ -226,7 +226,19 @@ header h2 {
 	color: #F5F5F5;
 }
 
-#section1 p, #section2 p, #section4 p {
+/* Tried this but it didn't work */
+/*
+@media only screen and (max-device-width : 480px) {
+	#section1 h1 {
+		font-size: 50%;
+	}
+
+	#section1 p {
+		font-size: 12px;
+	}
+} */
+
+#section1 p, #section4 p {
 	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
 	font-size: 32px;
 	color: #F5F5F5;
@@ -239,7 +251,7 @@ header h2 {
 /* Skills */
 
 #section2 h1 {
-	margin-top: -60px;
+	margin-top: -70px;
 	margin-bottom: 60px;
 }
 
@@ -247,11 +259,56 @@ header h2 {
 	max-width: 100%;
 }
 
-.resizePhoto {
-	width: 16.9%;
+.skills_img {
+	float: right;
+	width: 50%;
+	margin-right: 5%;
+	margin-top: 20%;
+	bottom: 0;
 }
 
-/* Recent Work */
+.skills_text {
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 10%;
+}
+
+#skills_description {
+	width: 100%;
+	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
+	font-size: 26px;
+	color: #F5F5F5;
+	margin-top: -5%;
+}
+
+#skills_description2 {
+	width: 100%;
+	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
+	font-size: 26px;
+	color: #F5F5F5;
+	margin-bottom: 10%;
+	margin-top: -5%;
+}
+
+.list_skills li {
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.language {
+	width: 20%;
+	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
+	font-size: 26px;
+	color: #F5F5F5;
+	background-color: #34495E;
+	margin: auto;
+	padding-bottom: 1%;
+	margin-right: 1%;
+	border-radius: 3px;
+}
+
+/* Projects */
 
 #section3 h1 {
 	margin-top: -60px;
@@ -262,38 +319,6 @@ header h2 {
 	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
 	font-size: 24px;
 	color: #F5F5F5;
-}
-
-.gradient {
-	background: rgba(76,76,76,1);
-	background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(39%, rgba(71,71,71,1)), color-stop(50%, rgba(44,44,44,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(60%, rgba(17,17,17,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
-	background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
-  
-	opacity: 0.4;
-	transition: opacity .35s ease-in-out;
-   -moz-transition: opacity .35s ease-in-out;
-   -webkit-transition: opacity .35s ease-in-out;
-}
-
-.gradient_out {
-	background: rgba(76,76,76,1);
-	background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(39%, rgba(71,71,71,1)), color-stop(50%, rgba(44,44,44,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(60%, rgba(17,17,17,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
-	background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
-  
-	opacity: 1;
-	transition: opacity .35s ease-in-out;
-   -moz-transition: opacity .35s ease-in-out;
-   -webkit-transition: opacity .35s ease-in-out;
 }
 
 .screenshots img {
@@ -327,22 +352,21 @@ header h2 {
 	top: 0;
 }
 
-/* might not use these icons */
-/*
-.gitIcon_left {
-	position: absolute;
-	top: 40%;
-	left: 42%;
-	visibility: hidden;
+.hover_in {
+	top: -8px;
+	-webkit-transition: all .35s ease-out;
+  	-moz-transition: all .35s ease-out;
+  	-o-transition: all .35s ease-out;
+  	transition: all .35s ease-out;
 }
 
-.gitIcon_right {
-	width: 6%;
-	position: absolute;
-	top: 44%;
-	left: 51%;
-	visibility: hidden;
-} */
+.hover_out {
+	top: 8px;
+	-webkit-transition: all .35s ease-out;
+  	-moz-transition: all .35s ease-out;
+  	-o-transition: all .35s ease-out;
+  	transition: all .35s ease-out;
+}
 
 /* Contact */
 
