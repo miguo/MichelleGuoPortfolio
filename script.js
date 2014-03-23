@@ -6,7 +6,7 @@ $(document).ready(function() {
 		menu: '#menu'
 	});
 		
-
+	/* Moves screenshots up and down on hover */
 	$('.hover').mouseover(function() {
   		$(this).addClass("hover_in");
   		$(this).removeClass("hover_out");
@@ -17,4 +17,7 @@ $(document).ready(function() {
   		$(this).removeClass("hover_in");
 	}); 
 
+
 });
+
+
