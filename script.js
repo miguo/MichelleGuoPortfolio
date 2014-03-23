@@ -6,6 +6,9 @@ $(document).ready(function() {
 		menu: '#menu'
 	});
 		
+
+/* might not use this jQuery effect */
+/*
 	$('.hover').mouseover(function() {
   		$('.gitIcon_left').css("visibility", "visible");
   		$('.gitIcon_right').css("visibility", "visible");
@@ -18,7 +21,7 @@ $(document).ready(function() {
   		$('.gitIcon_right').css("visibility", "hidden");
   		$(this).addClass("gradient_out");
   		$(this).removeClass("gradient");
-	});
+	}); */
 
 
 

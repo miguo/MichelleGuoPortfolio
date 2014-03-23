@@ -226,7 +226,7 @@ header h2 {
 	color: #F5F5F5;
 }
 
-#section1 p, #section2 p, #section3 p, #section4 p {
+#section1 p, #section2 p, #section4 p {
 	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
 	font-size: 32px;
 	color: #F5F5F5;
@@ -251,33 +251,17 @@ header h2 {
 	width: 16.9%;
 }
 
-/* Projects */
+/* Recent Work */
 
 #section3 h1 {
 	margin-top: -60px;
+	margin-bottom: 60px;
 }
 
-#mac {
-	position: relative;
-	max-width: 100%;
-	width: 30%;
-	z-index: 1;
-	margin-bottom: 30px;
-}
-
-#MD_1 {
-	position: absolute;
-	max-width: 100%;
-	width: 2.69%;
-	bottom: 52%;;
-	left: 7.01%;
-	z-index: 3;
-}
-
-#arrow_right {
-	vertical-align: center;
-	font-size: 30px;
-	font-weight: bolder;
+#section3 p {
+	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
+	font-size: 24px;
+	color: #F5F5F5;
 }
 
 .gradient {
@@ -313,21 +297,27 @@ header h2 {
 }
 
 .screenshots img {
-	width: 54%;
+	width: 80%;
 	max-width: 100%;
 	margin-bottom: 20px;
 } 
 
+/* 	width: 54%; */
+
 .screenshots p {
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
-	font-size: 1.5em;
+}
+
+.screenshots {
+	position: relative;
+	width: 100%;
+	display: inline-block;
 }
 
 .show_icon {
-	position: relative;
-	left: 0;
-	top: 0;
+	width: 26%;
+	display: inline-block;
 }
 
 .hover {
@@ -337,7 +327,8 @@ header h2 {
 	top: 0;
 }
 
-
+/* might not use these icons */
+/*
 .gitIcon_left {
 	position: absolute;
 	top: 40%;
@@ -351,7 +342,7 @@ header h2 {
 	top: 44%;
 	left: 51%;
 	visibility: hidden;
-}
+} */
 
 /* Contact */
 
