@@ -95,18 +95,18 @@ body{
 	width: 960px;
 	position: relative;
 }
+
+
 h1{
 	font-size: 6em;	
 }
+
 p{
-	font-size: 2em;
+	font-size: 3em;
 }
+
 .section{
 	text-align:center;
-}
-
-.section p {
-
 }
 
 /* Menu */
@@ -167,9 +167,9 @@ p{
 /* Home */
 
 header {
-    height:180px;
+    height: 380px;
     background-color: #E74C3C;
-    margin-top: 60px;
+    margin-top: -120px;
 }
 
 header h1{
@@ -177,6 +177,7 @@ header h1{
     text-align: center;
     font-size: 100px;
     line-height: 96px;
+    padding-top: 200px;
 }
 
 header h2 {
@@ -203,7 +204,7 @@ header h2 {
 
 .nametag_bottom {
 	background-color: #E74C3C;
-	height: 150px;
+	height: 200px;
 	width: 100%;
 	margin-top: 100px;
 }
@@ -221,37 +222,23 @@ header h2 {
 }
 
 #section1 h1, #section2 h1, #section3 h1, #section4 h1  {
-	font-size: 80px;
 	font-family: 'pacificoregular', 'script';
 	color: #F5F5F5;
 }
 
-/* Tried this but it didn't work */
-/*
-@media only screen and (max-device-width : 480px) {
-	#section1 h1 {
-		font-size: 50%;
-	}
-
-	#section1 p {
-		font-size: 12px;
-	}
-} */
-
 #section1 p, #section4 p {
 	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
-	font-size: 32px;
+	font-size: 2.3em;
 	color: #F5F5F5;
 }
 
 #section1 img {
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 /* Skills */
 
 #section2 h1 {
-	margin-top: -70px;
 	margin-bottom: 60px;
 }
 
@@ -259,25 +246,24 @@ header h2 {
 	max-width: 100%;
 }
 
+#section2 .skills_text, #section2 .skills_img {
+	display: inline-block;
+}
+
 .skills_img {
-	float: right;
-	width: 50%;
-	margin-right: 5%;
-	margin-top: 20%;
-	bottom: 0;
+	width: 620px;
+	margin-left: 60px;
 }
 
 .skills_text {
-	width: 40%;
-	float: left;
-	margin-left: 5%;
-	margin-top: 10%;
+	width: 600px;
+	margin: auto;
 }
 
 #skills_description {
 	width: 100%;
 	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
-	font-size: 26px;
+	font-size: 2em;
 	color: #F5F5F5;
 	margin-top: -5%;
 }
@@ -285,7 +271,7 @@ header h2 {
 #skills_description2 {
 	width: 100%;
 	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
-	font-size: 26px;
+	font-size: 2em;
 	color: #F5F5F5;
 	margin-bottom: 10%;
 	margin-top: -5%;
@@ -299,11 +285,12 @@ header h2 {
 .language {
 	width: 20%;
 	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
-	font-size: 26px;
+	font-size: 1.5em;
 	color: #F5F5F5;
 	background-color: #34495E;
 	margin: auto;
-	padding-bottom: 1%;
+	padding-bottom: 1.5%;
+	padding-top: 1%;
 	margin-right: 1%;
 	border-radius: 3px;
 }
@@ -311,13 +298,12 @@ header h2 {
 /* Projects */
 
 #section3 h1 {
-	margin-top: -60px;
 	margin-bottom: 60px;
 }
 
 #section3 p {
 	font-family: 'yanone_kaffeesatzregular', Sans-Serif;
-	font-size: 24px;
+	font-size: 1.5em;
 	color: #F5F5F5;
 }
 
@@ -326,8 +312,6 @@ header h2 {
 	max-width: 100%;
 	margin-bottom: 20px;
 } 
-
-/* 	width: 54%; */
 
 .screenshots p {
 	width: 70%;
@@ -384,6 +368,8 @@ header h2 {
 	display: inline-block;
 	margin-top: 60px;
 	padding: 12px;
+	width: 8%;
+	max-width: 100%;
 	box-shadow: 0px 3px 5px #000;
     -moz-box-shadow: 0px 3px 5px #000;
     -webkit-box-shadow: 0px 3px 5px #000;
@@ -398,12 +384,8 @@ header h2 {
     background-color: #FEBF24;
   }
 
-#section4 h1 {
-	margin-top: -60px;
-}
-
 .intro p{
-	width: 50%;
+	width: 70%;
 	margin: 0 auto;
 	font-size: 1.5em;
 }

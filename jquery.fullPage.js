@@ -16,7 +16,7 @@
 			'anchors':[],
 			'scrollingSpeed': 600,
 			'easing': 'easeInOutCubic',
-			'menu': false,
+			'menu': '#menu',
 			'navigation': false,
 			'navigationPosition': 'right',
 			'navigationColor': '#000',
@@ -46,7 +46,7 @@
 			'afterSlideLoad': null,
 			'onSlideLeave': null
 		}, options);		
-		
+
 	    // Disable mutually exclusive settings
 		if (options.continuousVertical &&
 			(options.loopTop || options.loopBottom)) {
@@ -55,7 +55,7 @@
 		}
 		
 		//Defines the delay to take place before being able to scroll to the next section
-		//BE CAREFUL! Not recommened to change it under 400 for a good behavior in laptops and 
+		//BE CAREFUL! Not recommended to change it under 400 for a good behavior in laptops and 
 		//Apple devices (laptops, mouses...)
 		var scrollDelay = 600;
 		
@@ -1026,6 +1026,7 @@
 		/**
 		 * Resizing of the font size depending on the window size as well as some of the images on the site.
 		 */
+
 		function resizeMe(displayHeight, displayWidth) {
 			//Standard height, for which the body font size is correct
 			var preferredHeight = 825;
@@ -1045,7 +1046,7 @@
 				$("img").each(function() {
 					$(this).css("width", '');
 				});
-			}*/
+			}*/   
 
 			if (displayHeight < 825 || displayWidth < 900) {
 				if (displayWidth < 900) {
