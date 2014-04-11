@@ -10,7 +10,7 @@ a{
 	text-decoration:none;
 }
 table {
-    border-spacing: 0;    
+    border-spacing: 0;
 }
 fieldset,img {
     border: 0;
@@ -98,7 +98,7 @@ body{
 
 
 h1{
-	font-size: 6em;	
+	font-size: 6em;
 }
 
 p{
@@ -117,8 +117,8 @@ p{
 	color: #000;
 	background:#fff;
 	background: rgba(255,255,255, 0.5);
-	-webkit-border-radius: 10px; 
-            border-radius: 10px; 
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
 }
 
 #menu li.active {
@@ -212,9 +212,9 @@ header h2 {
 /* About Me */
 
 #section1 {
-  background: 
+  background:
     linear-gradient(
-      rgba(0,206,209, 0.7), 
+      rgba(0,206,209, 0.7),
       rgba(0,206,209, 0.7)
     ),
 
@@ -293,7 +293,7 @@ header h2 {
 	width: 80%;
 	max-width: 100%;
 	margin-bottom: 20px;
-} 
+}
 
 .screenshots p {
 	width: 70%;
@@ -337,9 +337,9 @@ header h2 {
 /* Contact */
 
 #section4 {
-  background: 
+  background:
     linear-gradient(
-      rgba(52,73,94, 0.8), 
+      rgba(52,73,94, 0.8),
       rgba(52,73,94, 0.8)
     ),
 
@@ -376,13 +376,12 @@ header h2 {
 	position: absolute;
 	z-index: 100;
 	margin-top: -32px;
-	top: 50%;
 	opacity: 1;
 }
 #fullPage-nav li{
 	display: block;
 	width: 14px;
-	height: 13px;
+	height: 15px;
 	margin: 7px;
 }
 #fullPage-nav li a{
@@ -398,7 +397,7 @@ header h2 {
 	background: #333;
 }
 #fullPage-nav span{
-	top: 2px;
+	top: -19em;
 	left: 2px;
 	width: 8px;
 	height: 8px;

@@ -13,9 +13,9 @@ html, body {
 #superContainer {
     height: 100%;
     position: relative;
-	
+
 	/* Touch detection for Windows 8 */
-	-ms-touch-action: none; 
+	-ms-touch-action: none;
 }
 .section {
     position: relative;
@@ -154,12 +154,12 @@ html, body {
 .fullPage-tooltip {
     position: absolute;
     color: #fff;
-    font-size: 14px;
-    font-family: arial, helvetica, sans-serif;
-    top: -2px;
+    font-size: 15px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    top: -20.6em;
 }
 .fullPage-tooltip.right {
-    right: 20px;
+  right: 20px;
 }
 .fullPage-tooltip.left {
     left: 20px;
